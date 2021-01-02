@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 255px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.card__avatar {
+  margin-left: 10px;
+}
+
+.card__info {
+  margin-left: 15px;
+}
+.card__info > h3 {
+  font-size: 15px;
+}
+
+.card__info > p {
+  font-size: 12px;
+}
